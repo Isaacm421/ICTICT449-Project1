@@ -21,7 +21,7 @@ body {
   padding: 4rem 2rem;
   line-height: 1.3;
   text-align: justify;
-  column-break-inside: avoid;
+  break-inside: avoid-column; /*was 'column-break-inside: avoid;', but was changed to 'break-inside: avoid-column;' as it was determined to be an unknown property*/
 }
 
 a {
